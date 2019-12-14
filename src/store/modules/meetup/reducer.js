@@ -9,6 +9,7 @@ export default function meet(state = INITIAL_STATE, action) {
     switch (action.type) {
       case '@meet/CREATE_MEETUP_REQUEST': {
         draft.meetup = action.payload.meetup;
+
         break;
       }
       case '@meet/CREATE_MEETUP_SUCCESS': {
